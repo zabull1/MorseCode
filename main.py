@@ -33,3 +33,17 @@ for i,d in enumerate(decipher):
             decipher[i] = j
 
 print(''.join(decipher))
+
+"""
+while True:
+    words = input("Please type in the words you want to encode:").lower()
+    if words == "exit":
+        break
+    encoded_word = ""
+    for letter in words:
+        if letter == " ":
+            encoded_word = encoded_word + word_seperator
+        else:
+            encoded_word = encoded_word + morse_code[letter] + letter_seperator
+    print(f"Morse code:{encoded_word}")
+"""
