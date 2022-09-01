@@ -1,2 +1,2 @@
-update to accept a sentence instead of just a word
-make code more modular
+update code to accept a sentence from the user instead of just a single word
+make the code more modular
